@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2024.7.8)  14 JUL 2024 19:29
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2024.7.8)  14 JUL 2024 19:51
  restricted system commands enabled.
  file:line:error style messages enabled.
 **/Users/mlbrinke/Documents/1_Projects/Dissertation/SpectralSlope_GAMMs/reports/SSLA/SSLA_Abstract.tex
@@ -1765,38 +1765,50 @@ Package hyperref Info: Link coloring ON on input line 112.
 \openout6 = SSLA_Abstract.out
 
 
-[1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+[1
 
-]
+{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Font shape `TU/LibertinusMono(0)/m/n' will be
+(Font)              scaled to size 9.49pt on input line 144.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 144.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 144.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 144.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/wasysym/uwasy.fd
+File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
+)
 
-LaTeX Warning: Empty bibliography on input line 144.
-
-(./SSLA_Abstract.aux)
+[2] (./SSLA_Abstract.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `SSLA_Abstract.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Checksum: D9C48C3189EC20540C8B61A17CBB4C05;94.
 Package logreq Info: Writing requests to 'SSLA_Abstract.run.xml'.
 
 \openout1 = SSLA_Abstract.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 59100 strings out of 475915
+ 59405 strings out of 475915
  125210,2848258 words of node,token memory allocated
- 784 words of node memory still in use:
-   9 hlist, 2 vlist, 2 rule, 5 glue, 4 kern, 1 glyph, 14 attribute, 97 glue_spec, 10 attribute_list, 2 write nodes
-   avail lists: 1:4,2:257,3:59,4:36,5:75,6:27,7:469,8:2,9:186,10:5,11:27
- 80466 multiletter control sequences out of 65536+600000
- 47 fonts using 10399495 bytes
- 108i,11n,122p,2423b,1797s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</Users/mlbrinke/Library/Fonts/LibertinusSerif-Regular.otf></Users/mlbrinke/Library/Fonts/LibertinusSerif-Bold.otf></Users/mlbrinke/Library/Fonts/LibertinusSerif-Italic.otf>
-Output written on SSLA_Abstract.pdf (1 page, 11032 bytes).
+ 819 words of node memory still in use:
+   9 hlist, 2 vlist, 2 rule, 5 glue, 4 kern, 1 glyph, 20 attribute, 98 glue_spec, 13 attribute_list, 2 write, 2 pdf_action nodes
+   avail lists: 1:5,2:179,3:92,4:43,5:79,6:8,7:673,8:41,9:103,10:5,11:46,12:2
+ 80752 multiletter control sequences out of 65536+600000
+ 74 fonts using 13767359 bytes
+ 108i,5n,122p,2423b,1797s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</Users/mlbrinke/Library/Fonts/LibertinusMono-Regular.otf></Users/mlbrinke/Library/Fonts/LibertinusSerif-Italic.otf></Users/mlbrinke/Library/Fonts/LibertinusSerif-Regular.otf></Users/mlbrinke/Library/Fonts/LibertinusSerif-BoldItalic.otf></Users/mlbrinke/Library/Fonts/LibertinusSerif-Bold.otf>
+Output written on SSLA_Abstract.pdf (2 pages, 24356 bytes).
 
-PDF statistics: 38 PDF objects out of 1000 (max. 8388607)
- 25 compressed objects within 1 object stream
- 3 named destinations out of 1000 (max. 131072)
- 16 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 69 PDF objects out of 1000 (max. 8388607)
+ 49 compressed objects within 1 object stream
+ 7 named destinations out of 1000 (max. 131072)
+ 24 words of extra memory for PDF output out of 10000 (max. 100000000)
 

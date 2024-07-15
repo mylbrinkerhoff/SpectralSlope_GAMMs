@@ -16,5 +16,53 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{fischer-jorgensenPhoneticAnalysisBreathy1968}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5bdbf7486dd42b047bb8f3f971a70489}{%
+           family={Fischer-Jørgensen},
+           familyi={F\bibinithyphendelim J\bibinitperiod},
+           given={Eli},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5bdbf7486dd42b047bb8f3f971a70489}
+      \strng{fullhash}{5bdbf7486dd42b047bb8f3f971a70489}
+      \strng{fullhashraw}{5bdbf7486dd42b047bb8f3f971a70489}
+      \strng{bibnamehash}{5bdbf7486dd42b047bb8f3f971a70489}
+      \strng{authorbibnamehash}{5bdbf7486dd42b047bb8f3f971a70489}
+      \strng{authornamehash}{5bdbf7486dd42b047bb8f3f971a70489}
+      \strng{authorfullhash}{5bdbf7486dd42b047bb8f3f971a70489}
+      \strng{authorfullhashraw}{5bdbf7486dd42b047bb8f3f971a70489}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{No abstract}
+      \field{day}{1}
+      \field{issn}{2794-3224}
+      \field{journaltitle}{Annual Report of the Institute of Phonetics University of Copenhagen}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{title}{Phonetic {{Analysis}} of {{Breathy}} ({{Murmured}}) {{Vowels}} in {{Gujarati}}}
+      \field{volume}{2}
+      \field{year}{1968}
+      \field{dateera}{ce}
+      \field{pages}{35\bibrangedash 85}
+      \range{pages}{51}
+      \verb{doi}
+      \verb 10.7146/aripuc.v2i.130674
+      \endverb
+      \verb{file}
+      \verb /Users/mlbrinke/Dropbox/Zotero/fischer-jorgensenPhoneticAnalysisBreathy1968.pdf
+      \endverb
+      \keyw{Voice Quality}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
