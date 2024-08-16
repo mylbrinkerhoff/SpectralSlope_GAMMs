@@ -34,7 +34,7 @@ slz.clean$Position <- slz.clean$Position %>% factor()
 h1h2_clean <- slz.clean %>% ggplot(aes(x = Position,
                                      y = h1h2cz)) +
   scale_color_viridis(discrete = T) +
-  labs(title = "clean H1*-H2* by position and phonation",
+  labs(title = "H1*-H2* by position and phonation",
        x = "Vowel Position",
        y = "H1*-H2* (normalized)") +
   geom_boxplot(aes(colour = Phonation), notch = T) +
@@ -44,7 +44,7 @@ h1h2_clean
 h1a3_clean <- slz.clean %>% ggplot(aes(x = Position,
                                      y = h1a3cz)) +
   scale_color_viridis(discrete = T) +
-  labs(title = "clean H1*-A3 by position and phonation",
+  labs(title = "H1*-A3 by position and phonation",
        x = "Vowel Position",
        y = "H1*-A3 (normalized)") +
   geom_boxplot(aes(colour = Phonation), notch = T) +
@@ -54,7 +54,7 @@ h1a3_clean
 soe_clean <- slz.clean %>% ggplot(aes(x = Position,
                                     y = norm.soe)) +
   scale_color_viridis(discrete = T) +
-  labs(title = "clean SoE by position and phonation",
+  labs(title = "SoE by position and phonation",
        x = "Vowel Position",
        y = "SoE (normalized)") +
   geom_boxplot(aes(colour = Phonation), notch = T) +
@@ -64,7 +64,7 @@ soe_clean
 cpp_clean <- slz.clean %>% ggplot(aes(x = Position,
                                     y = cppz)) +
   scale_color_viridis(discrete = T) +
-  labs(title = "clean CPP by position and phonation",
+  labs(title = "CPP by position and phonation",
        x = "Vowel Position",
        y = "CPP (normalized)") +
   geom_boxplot(aes(colour = Phonation), notch = T) +
@@ -74,7 +74,7 @@ cpp_clean
 hnr5_clean <- slz.clean %>% ggplot(aes(x = Position,
                                       y = hnr05z)) +
   scale_color_viridis(discrete = T) +
-  labs(title = "clean HNR 500Hz by position and phonation",
+  labs(title = "HNR 500Hz by position and phonation",
        x = "Vowel Position",
        y = "HNR 500Hz (normalized)") +
   geom_boxplot(aes(colour = Phonation), notch = T) +
@@ -84,7 +84,7 @@ hnr5_clean
 hnr15_clean <- slz.clean %>% ggplot(aes(x = Position,
                                        y = hnr15z)) +
   scale_color_viridis(discrete = T) +
-  labs(title = "clean HNR 1500Hz by position and phonation",
+  labs(title = "HNR 1500Hz by position and phonation",
        x = "Vowel Position",
        y = "HNR 1500Hz (normalized)") +
   geom_boxplot(aes(colour = Phonation), notch = T) +
@@ -94,7 +94,7 @@ hnr15_clean
 hnr25_clean <- slz.clean %>% ggplot(aes(x = Position,
                                        y = hnr25z)) +
   scale_color_viridis(discrete = T) +
-  labs(title = "clean HNR 2500Hz by position and phonation",
+  labs(title = "HNR 2500Hz by position and phonation",
        x = "Vowel Position",
        y = "HNR 2500Hz (normalized)") +
   geom_boxplot(aes(colour = Phonation), notch = T) +
@@ -104,7 +104,7 @@ hnr25_clean
 hnr35_clean <- slz.clean %>% ggplot(aes(x = Position,
                                        y = hnr35z)) +
   scale_color_viridis(discrete = T) +
-  labs(title = "clean HNR 3500Hz by position and phonation",
+  labs(title = "HNR 3500Hz by position and phonation",
        x = "Vowel Position",
        y = "HNR 3500Hz (normalized)") +
   geom_boxplot(aes(colour = Phonation), notch = T) +
@@ -114,7 +114,7 @@ hnr35_clean
 h1_clean <- slz.clean %>% ggplot(aes(x = Position,
                                      y = H1c.resid)) +
   scale_color_viridis(discrete = T) +
-  labs(title = "clean resid. H1* by position and phonation",
+  labs(title = "resid. H1* by position and phonation",
        x = "Vowel Position",
        y = "resid. H1 (normalized)") +
   geom_boxplot(aes(colour = Phonation), notch = T) +
@@ -124,7 +124,7 @@ h1_clean
 f0_clean <- slz.clean %>% ggplot(aes(x = Position,
                                    y = strF0z)) +
   scale_color_viridis(discrete = T) +
-  labs(title = "clean f0 by position and phonation",
+  labs(title = "f0 by position and phonation",
        x = "Vowel Position",
        y = "f0 (normalized)") +
   geom_boxplot(aes(colour = Phonation), notch = T) +
@@ -137,7 +137,7 @@ f0_clean
 h1h2_clean.sp <- slz.clean %>% ggplot(aes(x = Position,
                                         y = h1h2cz)) +
   scale_color_viridis(discrete = T) +
-  labs(title = "clean H1*-H2* by position and phonation by Speaker",
+  labs(title = "H1*-H2* by position and phonation by Speaker",
        x = "Vowel Position",
        y = "H1*-H2* (normalized)") +
   geom_boxplot(aes(colour = Phonation), notch = F) +
@@ -148,7 +148,7 @@ h1h2_clean.sp
 h1a3_clean.sp <- slz.clean %>% ggplot(aes(x = Position,
                                         y = h1a3cz)) +
   scale_color_viridis(discrete = T) +
-  labs(title = "clean H1*-A3 by position and phonation by Speaker",
+  labs(title = "H1*-A3 by position and phonation by Speaker",
        x = "Vowel Position",
        y = "H1*-A3 (normalized)") +
   geom_boxplot(aes(colour = Phonation), notch = F) +
@@ -159,7 +159,7 @@ h1a3_clean.sp
 soe_clean.sp <- slz.clean %>% ggplot(aes(x = Position,
                                        y = norm.soe)) +
   scale_color_viridis(discrete = T) +
-  labs(title = "clean SoE by position and phonation by Speaker",
+  labs(title = "SoE by position and phonation by Speaker",
        x = "Vowel Position",
        y = "SoE (normalized)") +
   geom_boxplot(aes(colour = Phonation), notch = F) +
@@ -170,7 +170,7 @@ soe_clean.sp
 cpp_clean.sp <- slz.clean %>% ggplot(aes(x = Position,
                                        y = cppz)) +
   scale_color_viridis(discrete = T) +
-  labs(title = "clean CPP by position and phonation by Speaker",
+  labs(title = "CPP by position and phonation by Speaker",
        x = "Vowel Position",
        y = "CPP (normalized)") +
   geom_boxplot(aes(colour = Phonation), notch = F) +
@@ -181,7 +181,7 @@ cpp_clean.sp
 h1_clean.sp <- slz.clean %>% ggplot(aes(x = Position,
                                      y = H1c.resid)) +
   scale_color_viridis(discrete = T) +
-  labs(title = "clean resid. H1* by position and phonation",
+  labs(title = "resid. H1* by position and phonation",
        x = "Vowel Position",
        y = "resid. H1 (normalized)") +
   geom_boxplot(aes(colour = Phonation), notch = F) +
@@ -192,7 +192,7 @@ h1_clean.sp
 f0_clean.sp <- slz.clean %>% ggplot(aes(x = Position,
                                       y = strF0z)) +
   scale_color_viridis(discrete = T) +
-  labs(title = "clean f0 by position and phonation by Speaker",
+  labs(title = "f0 by position and phonation by Speaker",
        x = "Vowel Position",
        y = "f0 (normalized)") +
   geom_boxplot(aes(colour = Phonation), notch = F) +
@@ -207,9 +207,9 @@ h1h2.clean.line <- slz.clean %>%
              y=h1h2cz, 
              group=Phonation, 
              colour=Phonation)) +
-  geom_smooth(method = "loess", linewidth = 2) +
+  geom_smooth(method = "loess") +
   scale_color_viridis(discrete=TRUE) +
-  labs(title = "clean H1*-H2* measure across the vowel", 
+  labs(title = "H1*-H2* measure across the vowel", 
        x = "Normalized time (% of vowel duration)",
        y = "H1*-H2* (normalized)") +
   theme_bw()
@@ -220,9 +220,9 @@ h1a3.clean.line <- slz.clean %>%
              y = h1a3cz, 
              group=Phonation, 
              colour=Phonation)) +
-  geom_smooth(method = "loess", linewidth = 2) +
+  geom_smooth(method = "loess") +
   scale_color_viridis(discrete=TRUE) +
-  labs(title = "clean H1*-A3 measure across the vowel", 
+  labs(title = "H1*-A3 measure across the vowel", 
        x = "Normalized time (% of vowel duration)",
        y = "H1*-A3 (normalized)") +
   theme_bw()
@@ -233,9 +233,9 @@ cpp.clean.line <- slz.clean %>%
              y = cppz, 
              group=Phonation, 
              colour=Phonation)) +
-  geom_smooth(method = "loess", linewidth = 2) +
+  geom_smooth(method = "loess") +
   scale_color_viridis(discrete=TRUE) +
-  labs(title = "clean CPP measure across the vowel", 
+  labs(title = "CPP measure across the vowel", 
        x = "Normalized time (% of vowel duration)",
        y = "CPP (normalized)") +
   theme_bw()
@@ -246,9 +246,9 @@ hnr5.clean.line <- slz.clean %>%
              y = hnr05z, 
              group=Phonation, 
              colour=Phonation)) +
-  geom_smooth(method = "loess", linewidth = 2) +
+  geom_smooth(method = "loess") +
   scale_color_viridis(discrete=TRUE) +
-  labs(title = "clean HNR 500Hz measure across the vowel", 
+  labs(title = "HNR 500Hz measure across the vowel", 
        x = "Normalized time (% of vowel duration)",
        y = "HNR 500Hz (normalized)") +
   theme_bw()
@@ -259,9 +259,9 @@ hnr15.clean.line <- slz.clean %>%
              y = hnr15z, 
              group=Phonation, 
              colour=Phonation)) +
-  geom_smooth(method = "loess", linewidth = 2) +
+  geom_smooth(method = "loess") +
   scale_color_viridis(discrete=TRUE) +
-  labs(title = "clean HNR 1500Hz measure across the vowel", 
+  labs(title = "HNR 1500Hz measure across the vowel", 
        x = "Normalized time (% of vowel duration)",
        y = "HNR 1500Hz (normalized)") +
   theme_bw()
@@ -272,9 +272,9 @@ hnr25.clean.line <- slz.clean %>%
              y = hnr25z, 
              group=Phonation, 
              colour=Phonation)) +
-  geom_smooth(method = "loess", linewidth = 2) +
+  geom_smooth(method = "loess") +
   scale_color_viridis(discrete=TRUE) +
-  labs(title = "clean HNR 2500Hz measure across the vowel", 
+  labs(title = "HNR 2500Hz measure across the vowel", 
        x = "Normalized time (% of vowel duration)",
        y = "HNR 2500Hz (normalized)") +
   theme_bw()
@@ -285,9 +285,9 @@ hnr35.clean.line <- slz.clean %>%
              y = hnr35z, 
              group=Phonation, 
              colour=Phonation)) +
-  geom_smooth(method = "loess", linewidth = 2) +
+  geom_smooth(method = "loess") +
   scale_color_viridis(discrete=TRUE) +
-  labs(title = "clean HNR 3500Hz measure across the vowel", 
+  labs(title = "HNR 3500Hz measure across the vowel", 
        x = "Normalized time (% of vowel duration)",
        y = "HNR 3500Hz (normalized)") +
   theme_bw()
@@ -298,9 +298,9 @@ soe.clean.line <- slz.clean %>%
              y = norm.soe, 
              group=Phonation, 
              colour=Phonation)) +
-  geom_smooth(method = "loess", linewidth = 2) +
+  geom_smooth(method = "loess") +
   scale_color_viridis(discrete=TRUE) +
-  labs(title = "clean SoE measure across the vowel", 
+  labs(title = "SoE measure across the vowel", 
        x = "Normalized time (% of vowel duration)",
        y = "SoE (normalized)") +
   theme_bw()
@@ -311,9 +311,9 @@ h1.clean.line <- slz.clean %>%
              y = H1c.resid, 
              group=Phonation, 
              colour=Phonation)) +
-  geom_smooth(method = "loess", linewidth = 2) +
+  geom_smooth(method = "loess") +
   scale_color_viridis(discrete=TRUE) +
-  labs(title = "clean residual H1* measure across the vowel", 
+  labs(title = "residual H1* measure across the vowel", 
        x = "Normalized time (% of vowel duration)",
        y = "resid. H1* (normalized)") +
   theme_bw()
@@ -324,9 +324,9 @@ f0.clean.line <- slz.clean %>%
              y = strF0z, 
              group=Phonation, 
              colour=Phonation)) +
-  geom_smooth(method = "loess", linewidth = 2) +
+  geom_smooth(method = "loess") +
   scale_color_viridis(discrete=TRUE) +
-  labs(title = "clean f0 measure across the vowel", 
+  labs(title = "f0 measure across the vowel", 
        x = "Normalized time (% of vowel duration)",
        y = "f0 (normalized)") +
   theme_bw()
@@ -338,9 +338,9 @@ h1h2.clean.line.sp <- slz.clean %>%
              y=h1h2cz, 
              group=Phonation, 
              colour=Phonation)) +
-  geom_smooth(method = "loess", linewidth = 2) +
+  geom_smooth(method = "loess") +
   scale_color_viridis(discrete=TRUE) +
-  labs(title = "clean H1*-H2* measure across the vowel by Speaker", 
+  labs(title = "H1*-H2* measure across the vowel by Speaker", 
        x = "Normalized time (% of vowel duration)",
        y = "H1*-H2* (normalized)") +
   facet_wrap(.~Speaker, nrow = 2, ncol = 5) +
@@ -352,9 +352,9 @@ h1a3.clean.line.sp <- slz.clean %>%
              y = h1a3cz, 
              group=Phonation, 
              colour=Phonation)) +
-  geom_smooth(method = "loess", linewidth = 2) +
+  geom_smooth(method = "loess") +
   scale_color_viridis(discrete=TRUE) +
-  labs(title = "clean H1*-A3 measure across the vowel by Speaker", 
+  labs(title = "H1*-A3 measure across the vowel by Speaker", 
        x = "Normalized time (% of vowel duration)",
        y = "H1*-A3 (normalized)") +
   facet_wrap(.~Speaker, nrow = 2, ncol = 5) +
@@ -368,7 +368,7 @@ cpp.clean.line.sp <- slz.clean %>%
              colour=Phonation)) +
   geom_smooth(method = "loess", linewidth = 1) +
   scale_color_viridis(discrete=TRUE) +
-  labs(title = "clean CPP measure across the vowel by Speaker", 
+  labs(title = "CPP measure across the vowel by Speaker", 
        x = "Normalized time (% of vowel duration)",
        y = "CPP (normalized)") +
   facet_wrap(.~Speaker, nrow = 2, ncol = 5) +
@@ -380,9 +380,9 @@ hnr5.clean.line.sp <- slz.clean %>%
              y = hnr05z, 
              group=Phonation, 
              colour=Phonation)) +
-  geom_smooth(method = "loess", linewidth = 2) +
+  geom_smooth(method = "loess") +
   scale_color_viridis(discrete=TRUE) +
-  labs(title = "clean HNR 500Hz measure across the vowel by Speaker", 
+  labs(title = "HNR 500Hz measure across the vowel by Speaker", 
        x = "Normalized time (% of vowel duration)",
        y = "HNR 500Hz (normalized)") +
   facet_wrap(.~Speaker, nrow = 2, ncol = 5) +
@@ -394,9 +394,9 @@ hnr15.clean.line.sp <- slz.clean %>%
              y = hnr15z, 
              group=Phonation, 
              colour=Phonation)) +
-  geom_smooth(method = "loess", linewidth = 2) +
+  geom_smooth(method = "loess") +
   scale_color_viridis(discrete=TRUE) +
-  labs(title = "clean HNR 1500Hz measure across the vowel by Speaker", 
+  labs(title = "HNR 1500Hz measure across the vowel by Speaker", 
        x = "Normalized time (% of vowel duration)",
        y = "HNR 1500Hz (normalized)") +
   facet_wrap(.~Speaker, nrow = 2, ncol = 5) +
@@ -408,9 +408,9 @@ hnr25.clean.line.sp <- slz.clean %>%
              y = hnr25z, 
              group=Phonation, 
              colour=Phonation)) +
-  geom_smooth(method = "loess", linewidth = 2) +
+  geom_smooth(method = "loess") +
   scale_color_viridis(discrete=TRUE) +
-  labs(title = "clean HNR 2500Hz measure across the vowel by Speaker", 
+  labs(title = "HNR 2500Hz measure across the vowel by Speaker", 
        x = "Normalized time (% of vowel duration)",
        y = "HNR 2500Hz (normalized)") +
   facet_wrap(.~Speaker, nrow = 2, ncol = 5) +
@@ -422,9 +422,9 @@ hnr35.clean.line.sp <- slz.clean %>%
              y = hnr35z, 
              group=Phonation, 
              colour=Phonation)) +
-  geom_smooth(method = "loess", linewidth = 2) +
+  geom_smooth(method = "loess") +
   scale_color_viridis(discrete=TRUE) +
-  labs(title = "clean HNR 3500Hz measure across the vowel by Speaker", 
+  labs(title = "HNR 3500Hz measure across the vowel by Speaker", 
        x = "Normalized time (% of vowel duration)",
        y = "HNR 3500Hz (normalized)") +
   facet_wrap(.~Speaker, nrow = 2, ncol = 5) +
@@ -436,9 +436,9 @@ soe.clean.line.sp <- slz.clean %>%
              y = norm.soe, 
              group=Phonation, 
              colour=Phonation)) +
-  geom_smooth(method = "loess", linewidth = 2) +
+  geom_smooth(method = "loess") +
   scale_color_viridis(discrete=TRUE) +
-  labs(title = "clean SoE measure across the vowel by Speaker", 
+  labs(title = "SoE measure across the vowel by Speaker", 
        x = "Normalized time (% of vowel duration)",
        y = "SoE (normalized)") +
   facet_wrap(.~Speaker, nrow = 2, ncol = 5) +
@@ -450,9 +450,9 @@ h1.clean.line.sp <- slz.clean %>%
              y = H1c.resid, 
              group=Phonation, 
              colour=Phonation)) +
-  geom_smooth(method = "loess", linewidth = 2) +
+  geom_smooth(method = "loess") +
   scale_color_viridis(discrete=TRUE) +
-  labs(title = "clean resid. H1* measure across the vowel by Speaker", 
+  labs(title = "resid. H1* measure across the vowel by Speaker", 
        x = "Normalized time (% of vowel duration)",
        y = "resid. H1 (normalized)") +
   facet_wrap(.~Speaker, nrow = 2, ncol = 5) +
@@ -464,9 +464,9 @@ f0.clean.line.sp <- slz.clean %>%
              y = strF0z, 
              group=Phonation, 
              colour=Phonation)) +
-  geom_smooth(method = "loess", linewidth = 2) +
+  geom_smooth(method = "loess") +
   scale_color_viridis(discrete=TRUE) +
-  labs(title = "clean f0 measure across the vowel by Speaker", 
+  labs(title = "f0 measure across the vowel by Speaker", 
        x = "Normalized time (% of vowel duration)",
        y = "f0 (normalized)") +
   facet_wrap(.~Speaker, nrow = 2, ncol = 5) +
@@ -475,56 +475,56 @@ f0.clean.line.sp
 
 # Saving the plots
 
-ggsave(filename = "reports/figs/cpp_clean_line.png",
+ggsave(filename = "reports/Images/cpp_clean_line.png",
        plot = cpp.clean.line,
        width = 5,
        height = 3,
        dpi = 300,
        units = "in")
 
-ggsave(filename = "reports/figs/hnr5_clean_line.png",
+ggsave(filename = "reports/Images/hnr5_clean_line.png",
        plot = hnr5.clean.line,
        width = 5,
        height = 3,
        dpi = 300,
        units = "in")
 
-ggsave(filename = "reports/figs/hnr15_clean_line.png",
+ggsave(filename = "reports/Images/hnr15_clean_line.png",
        plot = hnr15.clean.line,
        width = 5,
        height = 3,
        dpi = 300,
        units = "in")
 
-ggsave(filename = "reports/figs/soe_clean_line.png",
+ggsave(filename = "reports/Images/soe_clean_line.png",
        plot = soe.clean.line,
        width = 5,
        height = 3,
        dpi = 300,
        units = "in")
 
-ggsave(filename = "reports/figs/f0_clean_line.png",
+ggsave(filename = "reports/Images/f0_clean_line.png",
        plot = f0.clean.line,
        width = 5,
        height = 3,
        dpi = 300,
        units = "in")
 
-ggsave(filename = "reports/figs/h1h2_clean_line.png",
+ggsave(filename = "reports/Images/h1h2_clean_line.png",
        plot = h1h2.clean.line,
        width = 5,
        height = 3,
        dpi = 300,
        units = "in")
 
-ggsave(filename = "reports/figs/h1_clean_line.png",
+ggsave(filename = "reports/Images/h1_clean_line.png",
        plot = h1.clean.line,
        width = 5,
        height = 3,
        dpi = 300,
        units = "in")
 
-ggsave(filename = "reports/figs/h1a3_clean_line.png",
+ggsave(filename = "reports/Images/h1a3_clean_line.png",
        plot = h1a3.clean.line,
        width = 5,
        height = 3,
@@ -532,56 +532,56 @@ ggsave(filename = "reports/figs/h1a3_clean_line.png",
        units = "in")
 
 # by speaker plots 
-ggsave(filename = "reports/figs/cpp_line_speaker.png",
+ggsave(filename = "reports/Images/cpp_line_speaker.png",
        plot = cpp.clean.line.sp,
        width = 5,
        height = 3,
        dpi = 300,
        units = "in")
 
-ggsave(filename = "reports/figs/hnr5_line_speaker.png",
+ggsave(filename = "reports/Images/hnr5_line_speaker.png",
        plot = hnr5.clean.line.sp,
        width = 5,
        height = 3,
        dpi = 300,
        units = "in")
 
-ggsave(filename = "reports/figs/hnr15_line_speaker.png",
+ggsave(filename = "reports/Images/hnr15_line_speaker.png",
        plot = hnr15.clean.line.sp,
        width = 5,
        height = 3,
        dpi = 300,
        units = "in")
 
-ggsave(filename = "reports/figs/soe_line_speaker.png",
+ggsave(filename = "reports/Images/soe_line_speaker.png",
        plot = soe.clean.line.sp,
        width = 5,
        height = 3,
        dpi = 300,
        units = "in")
 
-ggsave(filename = "reports/figs/f0_line_speaker.png",
+ggsave(filename = "reports/Images/f0_line_speaker.png",
        plot = f0.clean.line.sp,
        width = 5,
        height = 3,
        dpi = 300,
        units = "in")
 
-ggsave(filename = "reports/figs/h1_line_speaker.png",
+ggsave(filename = "reports/Images/h1_line_speaker.png",
        plot = h1.clean.line.sp,
        width = 5,
        height = 3,
        dpi = 300,
        units = "in")
 
-ggsave(filename = "reports/figs/h1a3_line_speaker.png",
+ggsave(filename = "reports/Images/h1a3_line_speaker.png",
        plot = h1a3.clean.line.sp,
        width = 5,
        height = 3,
        dpi = 300,
        units = "in")
 
-ggsave(filename = "reports/figs/h1h2_line_speaker.png",
+ggsave(filename = "reports/Images/h1h2_line_speaker.png",
        plot = h1h2.clean.line.sp,
        width = 5,
        height = 3,
